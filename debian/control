@@ -1,0 +1,21 @@
+Source: libtest-more-utf8-perl
+Section: perl
+Priority: optional
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Florian Schlichting <fsfs@debian.org>
+Build-Depends: debhelper (>= 10)
+Build-Depends-Indep: perl
+Standards-Version: 4.1.4
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtest-more-utf8-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtest-more-utf8-perl.git
+Homepage: https://metacpan.org/release/Test-More-UTF8
+Testsuite: autopkgtest-pkg-perl
+
+Package: libtest-more-utf8-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}
+Description: enhance Test::More for UTF8-based projects
+ Test::More::UTF8 is a simple extension for the widely used Test::More
+ module. By default, it will do a "binmode ':utf8'" on all of
+ Test::Builder's output handles thus enabling the easy use flagged
+ strings without warnings like "Wide character in print ..."

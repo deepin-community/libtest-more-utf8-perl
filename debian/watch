@@ -1,0 +1,2 @@
+version=3
+https://metacpan.org/release/Test-More-UTF8   .*/Test-More-UTF8-v?(\d[\d.-]*)\.(?:tar(?:\.gz|\.bz2)?|tgz|zip)$
